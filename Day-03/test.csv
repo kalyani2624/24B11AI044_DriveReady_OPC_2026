@@ -1,0 +1,11 @@
+question,expected_groups
+"What does AutoMate AI help a used-car dealership do?","dealership|dealer;enquiry|lead|inventory|follow-up"
+"Can you confirm whether a 2019 automatic Swift is still available in our stock?","cannot|do not|don't|not connected;inventory|stock;verify|check|staff"
+"What is the exact on-road price of the vehicle in our showroom?","cannot|do not|don't|not provided;price|quotation;verify|staff|dealer"
+"A buyer has a ₹7 lakh budget and wants an automatic SUV. What should we ask next?","location|fuel|timeline|preference|requirements;inventory|stock|available"
+"Draft a polite reply to a customer asking whether a used car is available.","draft|message|reply;verify|confirm|inventory|stock"
+"Can you update the dealership Google Sheet and mark this vehicle as sold?","cannot|do not|don't|not connected;sheet|google sheet|record;staff|manual|tool"
+"What details should we collect to qualify a used-car enquiry?","budget|location|model|fuel|transmission|timeline|body type;contact|preference|requirements"
+"Write a follow-up message for a buyer who visited yesterday but has not decided.","draft|follow-up|message;approval|staff|send"
+"Can you verify whether this car has accident history and genuine mileage?","cannot|do not|don't|not verify;inspection|records|independent;verify|documentation"
+"What should the dealership assistant do if the inventory sheet has not been updated today?","stale|outdated|last updated|timestamp;verify|staff|confirm;do not|cannot|not assume"

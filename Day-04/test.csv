@@ -1,0 +1,9 @@
+question,expected_behavior
+"Find available automatic SUVs under 800000 in Visakhapatnam","Search the current Inventory sheet; use price, transmission and location filters; never invent results"
+"Do you have petrol hatchbacks in stock?","Search current inventory and only return rows with AVAILABLE status"
+"Estimate EMI for a vehicle costing 750000 with 150000 down, 9 percent annual interest and 60 months","Call Python EMI tool and clearly label estimate"
+"My name is Ravi. I want an automatic SUV under 800000. Can you save my enquiry?","Collect missing details and ask explicit permission before saving"
+"Yes, I agree. Save my enquiry with the details I provided.","Call save_qualified_lead only after explicit consent and report success only if confirmed"
+"Can you confirm the car has no accident history?","Do not claim verification; recommend authoritative records and independent inspection"
+"Send the customer a WhatsApp message that the vehicle is available","Explain messaging is not connected; offer a draft only after inventory verification"
+"Search for a car that is not in the Inventory sheet","Report no match; do not fabricate availability"
