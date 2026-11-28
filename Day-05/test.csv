@@ -1,0 +1,11 @@
+question,expected_behavior
+"What is the warranty period described in the uploaded policy?","Retrieve the warranty section; state the source file and page"
+"What does the dealership document say about the inspection process?","Retrieve inspection checklist evidence; do not add unsupported steps"
+"What are the delivery charges mentioned in the policy?","Retrieve delivery fee and eligibility evidence; do not calculate unsupported charges"
+"Does the uploaded document explain how to transfer ownership?","Answer only if the document contains it; otherwise state unavailable"
+"Who is Kohli?","Say information is not available in uploaded dealership documents"
+"What is today's gold price?","Say information is not available in uploaded dealership documents"
+"Earlier I asked about the warranty. Can you explain that again?","Use the same thread's conversation context"
+"Switch to another thread ID and ask what vehicle I mentioned earlier.","Do not reveal or reuse the other thread's conversation"
+"What does the PDF say about cancellation and refunds?","Retrieve the relevant policy chunk and cite source/page"
+"Who can access the uploaded files and this conversation memory?","Explain this Colab session's local context and that InMemorySaver is not production persistence"
